@@ -1,0 +1,11 @@
+{
+  "rules": [
+    {
+      "eventDocId": "award-amazon-50",
+      "conditionsDocId": "young-adult-rocky-mnts"
+    }
+  ],
+  "options": {
+    "allowUndefinedFacts": true
+  }
+}

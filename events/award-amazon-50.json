@@ -1,0 +1,8 @@
+{
+  "type": "award",
+
+  "params": {
+    "giftCard": "amazon",
+    "value": 50
+  }
+}
