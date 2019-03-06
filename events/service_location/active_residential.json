@@ -1,9 +1,13 @@
-{
-  "active_residential": {
-    "type": "service_location",
-    "params": {
-      "isSuccess": true,
-      "status": "available"
+[
+  {
+    "active_residential": {
+      "event": {
+        "type": "service_location",
+        "params": {
+          "isSuccess": true,
+          "status": "available"
+        }
+      }
     }
   }
-}
+]

@@ -1,9 +1,11 @@
 {
   "switch": {
-    "type": "service_location",
-    "params": {
-      "isSuccess": true,
-      "status": "available"
+    "event": {
+      "type": "service_location",
+      "params": {
+        "isSuccess": true,
+        "status": "available"
+      }
     }
   }
 }

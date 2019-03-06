@@ -1,17 +1,27 @@
-{
-  "switch": {
-    "all": [
-      {
-        "fact": "Meter_Info.Switch_Hold",
-        "operator": "notEqual",
-        "value": "true"
+[
+  {
+    "switch": {
+      "conditions": {
+        "all": [
+          {
+            "fact": "Service_Type",
+            "operator": "equal",
+            "value": "Switch"
+          },
+          {
+            "fact": "Switch_Hold",
+            "operator": "notEqual",
+            "value": true
+          },
+          {
+            "fact": "Meter_Status",
+            "operator": "notEqual",
+            "value": "DeEnergized"
+          }
+        ]
       },
-      {
-        "fact": "Meter_Info.Meter_Status",
-        "operator": "notEqual",
-        "value": "DeEnergized"
-      }
-    ]
-  },
-  "execute": true
-}
+      "priority": 8,
+      "execute": true
+    }
+  }
+]
