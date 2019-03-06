@@ -1,0 +1,17 @@
+{
+  "switch": {
+    "all": [
+      {
+        "fact": "Meter_Info.Switch_Hold",
+        "operator": "notEqual",
+        "value": "true"
+      },
+      {
+        "fact": "Meter_Info.Meter_Status",
+        "operator": "notEqual",
+        "value": "DeEnergized"
+      }
+    ]
+  },
+  "execute": true
+}

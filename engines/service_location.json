@@ -1,0 +1,12 @@
+{
+  "rules": [
+    {
+      "eventDocId": "active_residential",
+      "conditionsDocId": "active_residential",
+      "execute" : true
+    }
+  ],
+  "options": {
+    "allowUndefinedFacts": true
+  }
+}

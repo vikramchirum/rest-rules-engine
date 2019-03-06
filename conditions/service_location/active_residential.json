@@ -1,0 +1,17 @@
+{
+  "active_residential": {
+    "all": [
+      {
+        "fact": "Meter_Info.Premise_Type",
+        "operator": "equal",
+        "value": "Residential"
+      },
+      {
+        "fact": "Meter_Info.Meter_Status",
+        "operator": "equal",
+        "value": "Active"
+      }
+    ]
+  },
+  "execute" : true
+}
